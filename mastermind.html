@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+        <head> 
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                <title>Mastermind</title>
+                <script type="text/javascript" src="functions.js"></script>
+                <style>
+                        label {
+                                font-family: monospace;
+                        }
+                        canvas {
+                                position: absolute;
+                                top: 5px;
+                                left: 200px;
+                        }
+                </style>
+        </head>
+        <body>
+                <label for="color1">Color 1</label>
+                <select id="color1">
+                        <option value="Red">Red</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Orange">Orange</option>
+                        <option value="Yellow">Yellow</option>
+                        <option value="Green">Green</option>
+                        <option value="Purple">Purple</option>
+                </select>
+                <p></p>
+                <label for="color2">Color 2</label>
+                <select id="color2">
+                        <option value="Red">Red</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Orange">Orange</option>
+                        <option value="Yellow">Yellow</option>
+                        <option value="Green">Green</option>
+                        <option value="Purple">Purple</option>
+                </select>
+                <p></p>
+                <label for="color3">Color 3</label>
+                <select id="color3">
+                        <option value="Red">Red</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Orange">Orange</option>
+                        <option value="Yellow">Yellow</option>
+                        <option value="Green">Green</option>
+                        <option value="Purple">Purple</option>
+                </select>
+                <p></p>
+                <label for="color4">Color 4</label>
+                <select id="color4">
+                        <option value="Red">Red</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Orange">Orange</option>
+                        <option value="Yellow">Yellow</option>
+                        <option value="Green">Green</option>
+                        <option value="Purple">Purple</option>
+                </select>
+                <button id="submit" onclick="main()">
+                        Submit
+                </button>
+                <canvas id="canvas" height="420" width="350"></canvas>
+                <script type="text/javascript" src="canvas.js"></script>
+                <script type="text/javascript" src="mastermind.js"></script>
+        </body>
+</html>
